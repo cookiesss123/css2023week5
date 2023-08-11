@@ -1,0 +1,19 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.1875; // 16px
+    color: #212529;
+    font-family: 'Lato', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    color: #212529 !important;
+    // 蓋不過去
+}
+.text-mono{
+    font-family: 'Roboto Mono', monospace;
+}

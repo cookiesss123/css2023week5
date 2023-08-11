@@ -1,0 +1,19 @@
+.sidebar{
+  height: 100vh;
+  .nav-link{
+    border-left: 4px solid transparent;
+    transition: all .4s ease-in-out;
+
+    &:hover{
+      color: #198754 !important;
+      border-left: 4px solid #198754;
+    }
+  }
+}
+
+.headshot{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 24px;
+}

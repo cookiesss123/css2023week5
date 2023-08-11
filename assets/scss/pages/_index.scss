@@ -1,0 +1,28 @@
+
+//  如果是 width 會壓縮到左側欄的圖片? why
+//  用 flex: 1; 就不會 why
+.main{
+  flex: 1;
+}
+.index-title {
+  font-size: 100px;
+}
+
+.fs-12{
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.fs-14{
+  font-size: 14px;
+  line-height: 20.2px;
+}
+.courseSelector{
+  select{
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  .material-icons{
+    pointer-events: none;
+  }
+}

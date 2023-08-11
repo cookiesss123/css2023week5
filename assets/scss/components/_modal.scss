@@ -1,0 +1,12 @@
+.right .modal-dialog{
+    transition: all .3s ease-out;
+    position: fixed;
+    /* 沒用??? */
+    transform: scale(0);
+    transform: translate(250px, 250px);
+    bottom: 35px; 
+    right: 32px;
+}
+.show{
+transform: scale(1);
+}
